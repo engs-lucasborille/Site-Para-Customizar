@@ -8,11 +8,27 @@
 body {
    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
- color: blue;
+ color: black
+ 
 }
 body {
     background-image: url("./Captura\ de\ tela\ 2026-03-18\ 143149.png")
 
-    
-
+}
+.quadro {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: blueviolet;
+}
+button:hover {
+  background-color: darkblue; /* efeito hover */    
+}
+button {
+    background-color: blue; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
 }
