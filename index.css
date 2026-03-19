@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
-    color: black;
+    color: white;
     background-color: lightblue;
     display: flex;
     flex-direction: column;
@@ -61,4 +61,7 @@ a {
 .my-button:hover {
   background-color: #4CAF50; 
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+body {
+    background-image:url(/image.png)
 }
