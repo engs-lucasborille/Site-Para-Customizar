@@ -6,14 +6,23 @@
     border: none;
 }
 body {
-   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
- color: black
- 
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
-body {
-    background-image: url("./Captura\ de\ tela\ 2026-03-18\ 143149.png")
 
+h1, p {
+    text-align: center;
+    max-width: 600px;
+}
+
+ul {
+    max-width: 600px;
 }
 .quadro {
    display: flex;
@@ -22,13 +31,34 @@ body {
    justify-content: center;
    background-color: blueviolet;
 }
-button:hover {
-  background-color: darkblue; /* efeito hover */    
-}
 button {
     background-color: blue; 
     padding: 10px 20px; 
     border-radius: 5px; 
     cursor: pointer; 
     transition: background-color 0.3s ease;
+}
+
+a {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+.my-button {
+  background-color: #04AA6D; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s; 
+}
+
+.my-button:hover {
+  background-color: #4CAF50; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
